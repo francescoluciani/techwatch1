@@ -87,23 +87,22 @@
         <div class="canva">
           <div class="container">
             <p>
-              We can use the RBG syntax to represent digital colors: rgb(15,
-              213, 133). The first number represents the amount of red light,
-              the second is green light, and the third is blue light.
+              We can use the <strong>RBG syntax</strong> to represent digital colors: <span>	rgb(222, 24, 128)</span>. The first number represents the amount of red light,
+              the second is green light, and the third is blue light.</br> </br>There’s also an RGBA syntax which adds an additional “alpha” channel to control opacity. (A low alpha value is very transparent and a high alpha value is very opaque.) </br> </br> <strong>Here’s what that looks like: <span style="color:rgba(222, 24, 128, 0.5)">rgba(222, 24, 128, 0.5)</span>.</strong>
             </p>
           </div>
         </div>
-        <div class="title"><h1>Thinking in red, green, and blue!</h1></div>
+        <div class="title"><h1>Thinking in <span style="color:#FF0000">red</span>, <span style="color:#8af768d2">green</span>, and <span style="color:#0077ff">blue</span></h1></div>
       </div>
     </div>
     <div class="second">
       <div class="border">
         <div class="canva">
-          <div class="container">
-            <p>Second RGB</p>
-          </div>
+          <img src="rgb.png" alt="freddie" width="600px" />
         </div>
-        <div class="title"><h1>RGB!</h1></div>
+        <div class="title">
+          <h1>It's all about light!</h1>
+        </div>
       </div>
     </div>
     <div class="pen">
@@ -145,14 +144,17 @@
         <div class="canva">
           <div class="container">
             <p>
-              With the hex (hexadecimal) format our computer screens don’t make
-              colors by mixing paints. Instead of light reflecting off of
-              physical paints, screens create colors by emitting red, green, and
-              blue light.
+              The hexadecimal format is another way to represent RGB colors that adds a confusing twist. 
+              Each color is represented using a “hexadecimal” value. 
+            </p>
+            <a href="https://chrome.google.com/webstore/detail/pesticide-for-chrome-with/neonnmencpneifkhlmhmfhfiklgjmloi">
+              <img src="Hex.png" alt="hex"style="width:500px;">
+              </a>
+            <p>This means all of the numbers are represented using base <span>16</span> instead of base <span>10</span>. For example <span>219</span> is <span>DB</span> and <span>112</span> is <span>70</span>.</br><strong>RGB(255, 255, 255) would be #ffffff.</strong>
             </p>
           </div>
         </div>
-        <div class="title"><h1>HEX1!</h1></div>
+        <div class="title"><h1>!=== "SO EASY"</h1></div>
       </div>
     </div>
     <div class="frame">
@@ -160,13 +162,11 @@
         <div class="canva">
           <div class="container">
             <p>
-              We can use the RBG syntax to represent digital colors: rgb(15,
-              213, 133). The first number represents the amount of red light,
-              the second is green light, and the third is blue light.
+              What combination of red, green, and blue makes yellow? </br></br>🤔🤔🤔</br></br>It sounds pretty difficult to figure out, doesn't it? </br></br>🤯🤯🤯
             </p>
           </div>
         </div>
-        <div class="title"><h1>Hex 2!</h1></div>
+        <div class="title"><h1>Why so hard?</h1></div>
       </div>
     </div>
     <div class="pen">
@@ -209,7 +209,7 @@
         <div class="canva">
           <div class="container">
             <p>
-                Colors on the web are confusing — but they don’t have to be! The HSL format makes it easy for humans and computers to work with color.
+                Colors on the web are confusing — but they don’t have to be! The HSL format makes it easy for humans and computers to work with color.</br></br> The HSL color format is much closer to how we think about colors. It defines colors in terms of their <strong>hue</strong>, <strong>saturation</strong>, and <strong>lightness</strong>.          
             </p>
           </div>
         </div>
@@ -221,15 +221,67 @@
         <div class="canva">
           <div class="container">
             <p>
-              The HSL format makes it easy for humans and computers to work with
-              color. When I was learning web development, color codes felt like
-              magic spells: #000000 meant black, #ff0000 meant red, and #ffffff
-              meant white. These are called hexadecimal colors and they’re super
-              confusing.
+                <strong>Hue</strong> refers to the overall color. For example, red, orange, yellow, green, blue, and purple. (The hue ranges from 0 to 360.)
+            </p>
+            <img src="hue.png" alt="hex"style="width:800px;">
+          </div>
+        </div>
+        <div class="title"><h1>HUE</h1></div>
+      </div>
+    </div>
+    <div class="frame">
+      <div class="border">
+        <div class="canva">
+          <div class="container">
+            <p>
+                <strong>Saturation</strong> describes how vivid or intense a color is. A low saturation color would appear gray or washed out, while a high saturation color would appear intense and colorful. (The saturation ranges from 0% to 100%.)                
             </p>
           </div>
         </div>
-        <div class="title"><h1>Human 2!</h1></div>
+        <div class="title"><h1>Saturation</h1></div>
+      </div>
+    </div>
+    <div class="second">
+      <div class="border">
+        <div class="canva">
+          <div class="container">
+            <p>
+                <strong>Lightness</strong> describes how light or dark a color is. Black has a very low lightness. White has a very high lightness. (The lightness ranges from 0% to 100%.)
+            </p>
+          </div>
+        </div>
+        <div class="title"><h1>Lightness</h1></div>
+      </div>
+    </div>
+    <div class="frame">
+      <div class="border">
+        <div class="canva">
+          <div class="container">
+            <p>This may not seem like a big deal. Hexadecimal colors are short, they work, and they’re used everywhere.</br></br><strong>Why changing what’s working?</strong></br> </p>
+            <ul>
+               <li>HSL colors are easier to understand</li>
+               <li>They lower the barrier to understanding color on the web.</li>
+               <li>They make it easier for developers to understand color and designers to understand code. </li>
+               <li>They make it easier to communicate and collaborate around color.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="title"><h1>So what? Who cares?</h1></div>
+      </div>
+    </div>
+    <div class="second">
+      <div class="border">
+        <div class="canva">
+          <div class="container">
+            <p>
+              If we can break a color down into its hue, saturation, and lightness we can manipulate those properties with code.
+            </p>
+            <a href="https://cloudfour.com/thinks/hsl-a-color-format-for-humans/?utm_campaign=CSS%2BLayout%2BNews&utm_medium=web&utm_source=CSS_Layout_News_294#so-what-who-cares">
+              <img src="hsl.png" alt="hex"style="width:800px;">
+              </a>
+          </div>
+        </div>
+        <div class="title"><h1>HSL colors unlock new coding opportunities.</h1></div>
       </div>
     </div>
 
@@ -272,11 +324,11 @@
       <div class="border">
         <div class="canva">
           <div class="container">
-            <div class="title"><h1>TIME TO PLAY!</h1></div>
+            <div class="title"><h1>🏆 TIME TO PLAY! 🏆</h1></div>
             <p>
               Get your hands dirty. Look at the two boards below and try to
-              match the target color using hex or HSL colors.  </br> </br>Which one is
-              faster/easier? :)
+              match the target color using hex or HSL colors. You need a matching percentage of at least 98.</br>🔴🟡🔵🟣🟢  </br> </br>Which method is
+              faster or more straightforward? <br/>😁</p>
             </p>
           </div>
         </div>

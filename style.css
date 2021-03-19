@@ -121,12 +121,13 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 26px;
 }
-mark.red {
-  color: #ff0000;
-  background: none;
+
+span {
+  color: hsl(328.3636363636364, 80.4922279793%, 48.1568627451%);
 }
 
-mark.blue {
-  color: #0000a0;
-  background: none;
+li {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
 }
